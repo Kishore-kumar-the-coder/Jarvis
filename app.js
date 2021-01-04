@@ -256,9 +256,7 @@ function readOutLoad(message) {
 
     //https://www.youtube.com/results?search_query=
 
-    speech.volume = 1;
-    speech.rate = 1.3;
-    speech.pitch = 0.1;
+   
     window.speechSynthesis.speak(speech)
 }
 function show() {
