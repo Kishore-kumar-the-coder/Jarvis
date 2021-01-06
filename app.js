@@ -169,7 +169,7 @@ function readOutLoad(message) {
         window.open("https://www.youtube.com/watch?v=cHHLHGNpCSA", "_blank")
 
     }
-    else if (message.includes("play dre", "play DRE")) {
+    else if (message.includes("play ringtone", "play Ringtone")) {
         speech.text = "Playing dre"
         window.open("https://www.youtube.com/watch?v=_CL6n0FJZpk", "_blank")
 
