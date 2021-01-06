@@ -169,11 +169,12 @@ function readOutLoad(message) {
         window.open("https://www.youtube.com/watch?v=cHHLHGNpCSA", "_blank")
 
     }
-    else if (message.includes("play ringtone", "play Ringtone")) {
+    else if (message.includes("ringtone", "Ringtone")) {
         speech.text = "Playing dre"
         window.open("https://www.youtube.com/watch?v=_CL6n0FJZpk", "_blank")
 
     }
+
     else if (message.includes("play old twon road", "play Old Twon Road")) {
         speech.text = "Playing Old Town"
         window.open("https://www.youtube.com/watch?v=w2Ov5jzm3j8", "_blank")
@@ -227,7 +228,6 @@ function readOutLoad(message) {
         window.open("https://www.youtube.com/watch?v=pFLu9n1StDM&list=TLPQMTcxMTIwMjAD6FVzl3ID1A&index=1", "_blank")
 
     }
-    //https://www.youtube.com/watch?v=pFLu9n1StDM&list=TLPQMTcxMTIwMjAD6FVzl3ID1A&index=1
 
     else if (message.includes("what special today") && k.getMonth() === 4 && k.getDate() === 8) {
         speech.text = "today is the birthday of creator of jarvis. happpy birthday"
@@ -279,7 +279,7 @@ function readOutLoad(message) {
 
     }
 
-    //https://www.youtube.com/results?search_query=
+
 
 
     window.speechSynthesis.speak(speech)
