@@ -164,6 +164,31 @@ function readOutLoad(message) {
         window.open("https://www.youtube.com/watch?v=60ItHLz5WEA", "_blank")
 
     }
+    else if (message.includes("play love", "play Love")) {
+        speech.text = "Playing Waiting for love"
+        window.open("https://www.youtube.com/watch?v=cHHLHGNpCSA", "_blank")
+
+    }
+    else if (message.includes("play dre", "play DRE")) {
+        speech.text = "Playing dre"
+        window.open("https://www.youtube.com/watch?v=_CL6n0FJZpk", "_blank")
+
+    }
+    else if (message.includes("play old twon road", "play Old Twon Road")) {
+        speech.text = "Playing Old Town"
+        window.open("https://www.youtube.com/watch?v=w2Ov5jzm3j8", "_blank")
+
+    }
+    else if (message.includes("Rick roll", "rick roll")) {
+        speech.text = "get rick rollled"
+        window.open("https://www.youtube.com/watch?v=dQw4w9WgXcQ", "_blank")
+
+    }
+    else if (message.includes("play blinding lights", "play blinding lights")) {
+        speech.text = "Playing blinding lights"
+        window.open("https://www.youtube.com/watch?v=fHI8X4OXluQ", "_blank")
+
+    }
     else if (message.includes("play Vadivel vox ", "play vadivel")) {
         speech.text = "Playing vadivel vox tenet version"
         window.open("https://www.youtube.com/watch?v=AYtC-_PPwiM", "_blank")
@@ -256,7 +281,7 @@ function readOutLoad(message) {
 
     //https://www.youtube.com/results?search_query=
 
-   
+
     window.speechSynthesis.speak(speech)
 }
 function show() {

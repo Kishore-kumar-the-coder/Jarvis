@@ -1,9 +1,13 @@
 
+
 body{
     font-family: 'Jura';
     background-color: black;
     color: whitesmoke;
     text-align: center;
+    overflow: -moz-scrollbars-vertical; 
+    overflow-y: scroll;
+
     
 }
 .title{
@@ -84,8 +88,17 @@ border-radius: 2px;
 border: none;
 text-align: center;
 }
+
+   
+   
+    
+    
+
 fieldset {
+   
+    white-space: nowrap;
     background-color: #eeeeee;
+    
 }
   
 legend {
