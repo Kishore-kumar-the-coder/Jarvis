@@ -21,7 +21,7 @@ body{
     width: 150px;
     height: 150px;
     text-align: center;
-    margin: 25% auto 5% auto;
+    margin: 100px auto 5% auto;
     box-shadow: 0px 10px 10px rgba(255, 255, 255, 0.1), 0px 1px 44px rgba(255, 255, 255, 0.5);
    
 }
@@ -96,14 +96,15 @@ text-align: center;
 
 fieldset {
    
-    white-space: nowrap;
+  
     background-color: #eeeeee;
+    font-size:small;
     
 }
   
 legend {
     background-color: gray;
     color: white;
-    padding: 5px 10px;
+    padding: 2px 0px;
 }
 
