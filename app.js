@@ -137,7 +137,7 @@ function readOutLoad(message) {
         var lk = lbk.split("yes ")
         speech.text = lk
     }
-    else if (message.includes("play Lemon Tree", "play lemon tree", "hello lemon tree", "play lemon")) {
+    else if (message.includes("Lemon Tree", " lemon tree", "lemon")) {
         speech.text = "Playing lemon tree"
         window.open("https://www.youtube.com/watch?v=l2UiY2wivTs", "_blank")
     }
