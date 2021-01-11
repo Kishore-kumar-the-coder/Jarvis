@@ -164,7 +164,7 @@ function readOutLoad(message) {
         window.open("https://www.youtube.com/watch?v=60ItHLz5WEA", "_blank")
 
     }
-    else if (message.includes("play love", "play Love")) {
+    else if (message.includes("love", "Love")) {
         speech.text = "Playing Waiting for love"
         window.open("https://www.youtube.com/watch?v=cHHLHGNpCSA", "_blank")
 
