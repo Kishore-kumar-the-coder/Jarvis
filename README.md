@@ -28,4 +28,5 @@ Try Saying: search insert the word
 Try Saying: youtube insert the word
 ```
 You can see all the codes in `/app.js`
-###### ***Note: You Sholud allow microphone access and Allow pop-up's***
+
+***Note: You Sholud allow microphone access and Allow pop-up's***
