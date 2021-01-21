@@ -1,6 +1,6 @@
 # Jarvis
-This is a clone of Tony Stark's Jarvis.
 ###### This site was built using [GitHub Pages](https://kishore-kumar-the-coder.github.io/Jarvis/JARVIS.html)
+This is a clone of Tony Stark's Jarvis.
 ## Commands
 ```Try Saying: open youtube
 
@@ -27,3 +27,4 @@ Try Saying: search insert the word
 Try Saying: youtube insert the word
 ```
 You can see all the codes in `/app.js`
+###### Note: This Website Was Made Using Javascript
